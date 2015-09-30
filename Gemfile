@@ -49,7 +49,7 @@ group :development do
    gem 'rspec-rails', '~> 2.0'
    gem 'capybara'
    gem 'turnip'
-  gem 'sqlite3' #追記する
+   #gem 'sqlite3' #追記する => 上で設定済み
 end
 
 # for Heroku
