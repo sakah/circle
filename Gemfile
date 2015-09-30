@@ -49,4 +49,11 @@ group :development do
    gem 'rspec-rails', '~> 2.0'
    gem 'capybara'
    gem 'turnip'
+  gem 'sqlite3' #追記する
+end
+
+# for Heroku
+group :production do
+  gem 'pg' #HerokuではPostgreSQLを利用するため必要
+  gem 'rails_12factor' #HerokuでRailsを動作させるための細かな調整を行ってくれる
 end
